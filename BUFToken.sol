@@ -104,7 +104,7 @@ contract BUFToken is owned, token {
     event FrozenFunds(address target, bool frozen);
 
     /* Initializes contract with initial supply tokens to the creator of the contract */
-    function MyAdvancedToken(
+    function BUFToken(
         uint256 initialSupply,
         string tokenName,
         uint8 decimalUnits,
